@@ -1,0 +1,46 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+.main_body{
+    width: 900px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.follow_btn{
+
+    border:1px solid #3333; 
+    height:28px;
+    background-color:#ffffff;
+    padding-left:40px;
+    padding-right:40px;
+
+}
+.post_btn{
+    border:1px solid #3333; 
+    
+    padding-left:68px;
+    padding-right:68px; 
+    padding-top:2px; 
+    padding-bottom:2px;
+}
+.edit_btn{
+    border:1px solid #3333; 
+    padding-left:80px;
+    padding-right:80px; 
+    padding-top:2px; 
+    padding-bottom:2px;
+}
